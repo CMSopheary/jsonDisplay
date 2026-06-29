@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Color Display</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- FontAwesome for Premium Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    
+  </head>
+  <body>
+
+    <div class="p-4 lg:p-8 md:p-6 sm:p-4 max-w-full lg:w-6xl md:w-4xl sm:w-full mx-auto">
+
+        <div class="flex items-center justify-between">
+            <div class="flex flex-col gap-1">
+                <h1 class="text-4xl font-bold">Color</h1>
+                <span class="text-sm">Reusable colors for productivity.</span>
+            </div>
+
+            <button id="btn-add" class="flex items-center gap-2 cursor-pointer bg-blue-600 hover:bg-blue-700 px-6 py-2 text-white rounded-lg text-sm transition duration-300">
+                <i class="fa-solid fa-plus"></i>
+                Add
+            </button>
+        </div>
+
+        <hr class="my-4 border-b border-blue-400">
+
+
+        <!-- Card Display -->
+         <div class="grid grid-cols-2 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-2" id="out-put">
+    
+
+        
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
